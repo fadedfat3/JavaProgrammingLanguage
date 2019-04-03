@@ -1,17 +1,13 @@
 package practices;
-
+import practices.Test;
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int x =5, y = -6;
-        test(x, 1);
-        test(y, 1);
+        Test t = new Test();
+        t.sort();
+        System.out.println(t.toString());
     }
-    public static void test(int nums, int offset){
 
-        System.out.println(nums << offset);
-        System.out.println(nums >> offset);
-        System.out.println(nums >>> offset);
-    }
+
 }
