@@ -1,9 +1,6 @@
 package practices;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -20,6 +17,20 @@ public class BinaryIO {
             System.out.println(in.nextInt());
             System.out.println(in.nextLine());
             System.out.println(in.nextLine());
+        }
+    }
+
+    public void binaryRun() throws IOException, ClassNotFoundException {
+        try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("binary.dat"))){
+            out.writeUTF("123");
+            out.writeInt(45);
+            out.writeObject(new Date());
+
+        }
+        try(ObjectInputStream in = new ObjectInputStream(new FileInputStream("test.txt"))){
+            System.out.println(in.readUTF());
+            System.out.println(in.readInt());
+            System.out.println(in.readObject());
         }
     }
 }

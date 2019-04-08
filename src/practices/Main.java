@@ -10,7 +10,8 @@ public class Main  {
         BinaryIO io = new BinaryIO();
         try{
             io.run();
-        }catch (IOException e){
+            io.binaryRun();
+        }catch (IOException | ClassNotFoundException e){
             System.out.println(e);
             System.exit(1);
         }
