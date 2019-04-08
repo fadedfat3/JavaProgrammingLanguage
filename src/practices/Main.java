@@ -1,23 +1,22 @@
 package practices;
-import practices.Person;
-import practices.Manager;
-import practices.TalkInterface;
-public class Main  implements TalkInterface{
+
+import java.io.IOException;
+
+public class Main  {
 
     public static void main(String[] args) {
 	// write your code here
-        Person p = new Manager();
-        System.out.println(p instanceof Manager);
-        System.out.println(p instanceof Employee);
-        System.out.println(p instanceof Person);
-        System.out.println(p.add("123"));
-        System.out.println(p.remove("1234"));
 
+        BinaryIO io = new BinaryIO();
+        try{
+            io.run();
+        }catch (IOException e){
+            System.out.println(e);
+            System.exit(1);
+        }
     }
 
-    public void talk(){
-        System.out.println("talk");
-    }
+
 
 
 }
