@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131fd83f-eb7f-4414-a168-78fbce2172ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/DealException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/TestScanner.java" afterDir="false" />
+    <list default="true" id="131fd83f-eb7f-4414-a168-78fbce2172ff" name="Default Changelist" comment="Comparable Comparator">
+      <change afterPath="$PROJECT_DIR$/src/practices/Set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/语法细节.md" beforeDir="false" afterPath="$PROJECT_DIR$/语法细节.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practices/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="230">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -35,10 +32,22 @@
         <entry file="file://$PROJECT_DIR$/语法细节.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="378">
-                <caret line="139" column="59" selection-start-line="139" selection-start-column="59" selection-end-line="139" selection-end-column="59" />
+              <first_editor relative-caret-position="507">
+                <caret line="183" selection-start-line="183" selection-end-line="183" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practices/Set.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/practices/Abstract.java" />
         <option value="$PROJECT_DIR$/src/practices/BinaryIO.java" />
         <option value="$PROJECT_DIR$/src/practices/Main.java" />
+        <option value="$PROJECT_DIR$/src/practices/Set.java" />
         <option value="$PROJECT_DIR$/语法细节.md" />
       </list>
     </option>
@@ -92,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -169,6 +179,8 @@
       <updated>1554254343231</updated>
       <workItem from="1554254346296" duration="11825000" />
       <workItem from="1554732294177" duration="6035000" />
+      <workItem from="1554858960071" duration="1325000" />
+      <workItem from="1554864380889" duration="9855000" />
     </task>
     <task id="LOCAL-00001" summary="添加java语法细节MD文件">
       <created>1554287974628</created>
@@ -191,26 +203,35 @@
       <option name="project" value="LOCAL" />
       <updated>1554740422963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Comparable Comparator">
+      <created>1554803632435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554803632435</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29216000" />
+    <option name="totallyTimeSpent" value="40517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25485438" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15291262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="设计器" order="7" />
+      <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30254042" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,7 +240,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32871974" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -230,6 +251,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="调色板" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +260,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加java语法细节MD文件" />
     <MESSAGE value="IO 范型 异常 递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO 范型 异常 递归" />
+    <MESSAGE value="Comparable Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparable Comparator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -317,16 +340,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practices/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="230">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practices/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/语法细节.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="378">
-            <caret line="139" column="59" selection-start-line="139" selection-start-column="59" selection-end-line="139" selection-end-column="59" />
+          <first_editor relative-caret-position="507">
+            <caret line="183" selection-start-line="183" selection-end-line="183" />
           </first_editor>
           <second_editor />
         </state>
