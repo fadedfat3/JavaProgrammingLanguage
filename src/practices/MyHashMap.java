@@ -4,14 +4,18 @@ import java.util.*;
 import java.util.Set;
 
 public class MyHashMap<K, V> implements MyMap {
-    private ArrayList<LinkedList<MyMap.Entry<K, V>>> table;
+    private LinkedList<MyMap.Entry<K, V>>[] table;
     private int entryNumbers;
     private int capacity;
+    private int filledCount;
+    private final int INIT_CAPACITY= 16;
+    private final float LOAD_FACTOR_THROD = 0.9f;
     public MyHashMap(){
-        capacity = 16;
-        table = new ArrayList<LinkedList<MyMap.Entry<K,V>>>(capacity);
+        capacity = INIT_CAPACITY;
+        table = new LinkedList[capacity];
+        filledCount = 0;
         for(int i = 0; i < capacity; i++){
-            table.add(null);
+            table[i] = null;
         }
     }
 
@@ -24,21 +28,16 @@ public class MyHashMap<K, V> implements MyMap {
     }
 
     private LinkedList<MyMap.Entry<K, V>> getLinkedList(K key){
-        return table.get(getIndex(key));
+        return table[getIndex(key)];
     }
 
-    /**
-     * get all entries in same linkedList
-     * @param key
-     * @return MyMap.Entry<K, V> entries
-     */
-    private MyMap.Entry<K, V> getEntries(K key){
-        return null;
+    private boolean isNeedHash(){
+        return filledCount > capacity * LOAD_FACTOR_THROD;
     }
 
     @Override
     public int size() {
-        return table.size();
+        return entryNumbers;
     }
 
     @Override
@@ -69,7 +68,7 @@ public class MyHashMap<K, V> implements MyMap {
              ) {
             linkedList = null;
             entryNumbers = 0;
-            capacity = 16;
+            capacity = INIT_CAPACITY;
         }
     }
 
@@ -101,7 +100,7 @@ public class MyHashMap<K, V> implements MyMap {
             linkedList = new LinkedList<>();
             MyMap.Entry<K, V> entry = new MyMap.Entry<K, V>((K)key, (V)value);
             linkedList.addLast(entry);
-            table.set(getIndex((K)key), linkedList);
+            table[getIndex((K)key)] =  linkedList;
         }
         for (MyMap.Entry entry:linkedList
              ) {
