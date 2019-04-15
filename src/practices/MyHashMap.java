@@ -8,7 +8,7 @@ public class MyHashMap<K, V> implements MyMap {
     private int entryNumbers;
     private int capacity;
     private int filledCount;
-    private static final int INIT_CAPACITY= 16;
+    private static final int INIT_CAPACITY= 4;
     private final float LOAD_FACTOR_THROD = 0.9f;
     public MyHashMap(){
         this(INIT_CAPACITY, 0.75f);
@@ -38,7 +38,16 @@ public class MyHashMap<K, V> implements MyMap {
     private int hash(int hashCode){
         return hashCode & (capacity - 1);
     }
+    private void doubleHash(){
+        int newCapacity = capacity << 1;
 
+        LinkedList<MyHashMap.Entry<K, V>>[] newTable = new LinkedList[newCapacity];
+        int i = 0;
+        for(LinkedList<MyHashMap.Entry<K, V>> list : table){
+            newTable[i] = list;
+            i++;
+        }
+    }
     private int getIndex(K key){
         return hash(key.hashCode());
     }
@@ -117,6 +126,11 @@ public class MyHashMap<K, V> implements MyMap {
             MyMap.Entry<K, V> entry = new MyMap.Entry<K, V>((K)key, (V)value);
             linkedList.addLast(entry);
             table[getIndex((K)key)] =  linkedList;
+            entryNumbers++;
+            filledCount++;
+            if(isNeedHash()){
+                doubleHash();
+            }
         }
         for (MyMap.Entry entry:linkedList
              ) {
@@ -126,6 +140,11 @@ public class MyHashMap<K, V> implements MyMap {
             }
         }
         linkedList.addLast(new MyMap.Entry<K, V>((K)key, (V)value));
+        entryNumbers++;
+        filledCount++;
+        if(isNeedHash()){
+            doubleHash();
+        }
         return value;
     }
 
@@ -142,6 +161,9 @@ public class MyHashMap<K, V> implements MyMap {
              ) {
             if(entry.getKey().equals(key)){
                 linkedList.remove(entry);
+                if(linkedList.isEmpty()){
+                    linkedList = null;
+                }
                 return entry.getValue();
             }
         }
@@ -150,7 +172,7 @@ public class MyHashMap<K, V> implements MyMap {
 
     @Override
     public void putAll(MyMap m) {
-        Set<MyMap.Entry<K, V>> entries = entrySet();
+        Set<MyMap.Entry<K, V>> entries = m.entrySet();
         for (MyMap.Entry<K, V> entry:entries
              ) {
             put(entry.getKey(), entry.getValue());
@@ -184,9 +206,10 @@ public class MyHashMap<K, V> implements MyMap {
         Set<MyMap.Entry<K, V>> set = new HashSet<Entry<K, V>>();
         for (LinkedList<MyMap.Entry<K, V>> linkedList:table
              ) {
-            for (MyMap.Entry<K, V> entry:linkedList
-                 ) {
-                set.add(entry);
+            if(linkedList != null) {
+                for (MyMap.Entry<K, V> entry : linkedList) {
+                    set.add(entry);
+                }
             }
         }
         return set;

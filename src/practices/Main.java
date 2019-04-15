@@ -9,16 +9,12 @@ public class Main  {
 	// write your code here
 
 
-        int[] test = new int[10];
-        test[0] = 15;
-        test[1] = 0;
-        test[2] = 1;
-        test[3] = 8;
-        test[4] = 35;
-        for (int t:test) {
-
-            System.out.println((int)Math.pow(2, (int)Math.ceil(Math.log(t) / Math.log(2))));
-        }
+        MyHashMap<String, Integer> map = new MyHashMap<>();
+        map.put("abc", 23);
+        map.put("123", 45);
+        map.put("test", 56);
+        map.put("test12", 67);
+        System.out.println(map.entrySet());
     }
 
 
