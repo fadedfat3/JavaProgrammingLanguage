@@ -8,17 +8,33 @@ public class MyHashMap<K, V> implements MyMap {
     private int entryNumbers;
     private int capacity;
     private int filledCount;
-    private final int INIT_CAPACITY= 16;
+    private static final int INIT_CAPACITY= 16;
     private final float LOAD_FACTOR_THROD = 0.9f;
     public MyHashMap(){
-        capacity = INIT_CAPACITY;
+        this(INIT_CAPACITY, 0.75f);
+    }
+
+    public MyHashMap(int minCapacity, float loadFactor){
+        capacity = getNeededCapacity(minCapacity);
         table = new LinkedList[capacity];
         filledCount = 0;
         for(int i = 0; i < capacity; i++){
             table[i] = null;
         }
     }
+    private int trim2MinCapacity(int minCapacity){
+        return (int)Math.pow(2, (int)Math.ceil(Math.log(minCapacity) / Math.log(2)));
+    }
+    private int getNeededCapacity(int minCapacity){
+        if(minCapacity <= 0){
+            throw new IllegalArgumentException("Capacity of Map can not be greater zero ");
+        }else if(minCapacity < INIT_CAPACITY){
+            return INIT_CAPACITY;
+        }else{
+            return trim2MinCapacity(minCapacity);
+        }
 
+    }
     private int hash(int hashCode){
         return hashCode & (capacity - 1);
     }

@@ -1,5 +1,6 @@
 package practices;
 
+import java.awt.desktop.SystemSleepEvent;
 import java.io.IOException;
 
 public class Main  {
@@ -15,7 +16,8 @@ public class Main  {
         test[3] = 8;
         test[4] = 35;
         for (int t:test) {
-            System.out.println((int)Math.pow(2, (int)Math.ceil(Math.log(t))));
+
+            System.out.println((int)Math.pow(2, (int)Math.ceil(Math.log(t) / Math.log(2))));
         }
     }
 
