@@ -8,7 +8,7 @@ public class MyHashMap<K, V> implements MyMap {
     private int entryNumbers;
     private int capacity;
     private int filledCount;
-    private static final int INIT_CAPACITY= 4;
+    private static final int INIT_CAPACITY= 2;
     private final float LOAD_FACTOR_THROD = 0.9f;
     public MyHashMap(){
         this(INIT_CAPACITY, 0.75f);
@@ -163,7 +163,9 @@ public class MyHashMap<K, V> implements MyMap {
                 linkedList.remove(entry);
                 if(linkedList.isEmpty()){
                     linkedList = null;
+                    filledCount--;
                 }
+                entryNumbers--;
                 return entry.getValue();
             }
         }
@@ -213,5 +215,15 @@ public class MyHashMap<K, V> implements MyMap {
             }
         }
         return set;
+    }
+
+    @Override
+    public String toString(){
+
+        String entryStr = "";
+        for(MyMap.Entry<K, V> entry : entrySet()){
+            entryStr += entry.toString();
+        }
+        return "{" + String.join("],", entryStr.split("]")) + "}";
     }
 }

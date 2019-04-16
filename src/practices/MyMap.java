@@ -47,7 +47,16 @@ public interface MyMap<K, V> {
             return value;
         }
         public String toString(){
-            return "[ " + key + " => " + value + " ]";
+            String keyStr = key.toString();
+            String valueStr = value.toString();
+            if(key instanceof String ){
+                keyStr = "\"" + key + "\"";
+            }else if(value instanceof String){
+                valueStr = "\"" + value + "\"";
+            }
+            return "[ " + keyStr + " => " + valueStr + " ]";
+
         }
+
     }
 }
