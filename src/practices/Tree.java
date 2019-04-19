@@ -8,8 +8,9 @@ public interface Tree extends Iterator {
     List<?> previousOrder();
     List<?> inOrder();
     List<?> postOrder();
-    void insert(Object data);
-    void delete(Object data);
+    void insert(Object o);
+    void delete(Object o);
+    Object search(Object o);
 
 
 }

@@ -27,7 +27,7 @@ public class BinarySearchTree<E> implements Tree {
     private Node<E> root;
     private Comparator<E> comparator;
     public BinarySearchTree(){
-        root = new Node<>();
+
     }
     public BinarySearchTree(BinarySearchTree<E> tree){
         root = createByRoot(tree.getRoot());
@@ -152,49 +152,56 @@ public class BinarySearchTree<E> implements Tree {
         List<E> orders = new ArrayList<>();
         Stack<Node<E>> stack = new Stack<>();
         Node<E> current = root;
+        Node<E> parrent = null;
         while(!stack.isEmpty() || current != null){
             while(current != null){
                 stack.push(current);
                 current = current.left;
+                parrent = stack.peek();
             }
-            current = stack.peek();
-            while(current.right == null){
-                orders.add(current.data);
+            parrent = stack.peek();
+            while(parrent.right == null) {
+                orders.add(parrent.data);
                 stack.pop();
+                if (stack.empty()) {
+                    return orders;
+                }
+                current = parrent;
+                parrent = stack.peek();
+            }
+
+            while (parrent.right == current) {
+                stack.pop();
+                orders.add(parrent.data);
                 if(stack.empty()){
                     return orders;
                 }
-                Node<E> parrent = stack.peek();
-                if(parrent.right == null){
-                    current = parrent;
-                }else {
-                    while (parrent.right == current) {
-
-                        stack.pop();
-                        orders.add(parrent.data);
-                        if(stack.empty()){
-                            return orders;
-                        }
-                        parrent = stack.peek();
-
-                        break;
-                    }
-                    while (parrent.left == current) {
-                        current = parrent.right;
-                        break;
-                    }
-                }
+                current = parrent;
+                parrent = stack.peek();
             }
-            current = current.right;
+
+            current = parrent.right;
 
         }
         return orders;
     }
 
+    private void postOrder(List<E> list, Node<E> root){
+        if(root != null){
+            postOrder(list, root.left);
+            postOrder(list, root.right);
+            list.add(root.data);
+        }
+    }
+    public List<E> postOrderR(){
+        List<E> list = new ArrayList<>();
+        postOrder(list, root);
+        return list;
+    }
     @Override
     public void insert(Object o) {
         E data = (E)o;
-        if(root.data == null){
+        if(root == null){
             root = new Node<E>(data);
         }else{
             Node<E> current = root;
@@ -220,7 +227,63 @@ public class BinarySearchTree<E> implements Tree {
     }
 
     @Override
-    public void delete(Object data) {
+    public Node<E> search(Object o) {
+        E data = (E)o;
+        Node<E> current = root;
+        while(current != null){
+            if(compare(data, current.data) < 0){
+                current = current.left;
+            }else if(compare(data, current.data) > 0){
+                current = current.right;
+            }else{
+                return current;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public void delete(Object o) {
+        E data = (E) o;
+        Node<E> current = root, parrent = null;
+        if (search(o) == null) {
+            throw new RuntimeException("BST doesn't contain the node");
+        }
+        while (current != null) {
+            if (compare(data, current.data) > 0) {
+                parrent = current;
+                current = current.right;
+            } else if (compare(data, current.data) < 0) {
+                parrent = current;
+                current = current.left;
+            } else {
+                break;
+            }
+        }
+
+            if (current.left == null) {
+                if(parrent == null){ //delete root node
+                    root = current.right;
+                }else if(parrent.left == current){
+                    parrent.left = current.right;
+                }else{
+                    parrent.right = current.right;
+                }
+            } else {
+                Node<E> rightMost = current.left;
+                Node<E> parrentOfRightMost = current;
+                while(rightMost.right != null){
+                    parrentOfRightMost = rightMost;
+                    rightMost = rightMost.right;
+                }
+                current.data = rightMost.data;   //move rightMost to current
+                //remove rightMost, rightMost.right must to be null
+                if(parrentOfRightMost.left == rightMost){    //current doesn't have right
+                    parrentOfRightMost.left = rightMost.left;
+                }else {
+                    parrentOfRightMost.right = rightMost.left;
+                }
+            }
 
     }
 }

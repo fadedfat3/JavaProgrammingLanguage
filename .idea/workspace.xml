@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131fd83f-eb7f-4414-a168-78fbce2172ff" name="Default Changelist" comment="sort">
-      <change afterPath="$PROJECT_DIR$/src/practices/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/practices/SortTest.java" afterDir="false" />
+    <list default="true" id="131fd83f-eb7f-4414-a168-78fbce2172ff" name="Default Changelist" comment="bst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,49 +19,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practices/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
+            <state relative-caret-position="552">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
                 <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
                 <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
                 <element signature="e#1664#1665#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
                 <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1788#1789#0" expanded="true" />
                 <element signature="e#1828#1829#0" expanded="true" />
+                <element signature="e#1990#1991#0" expanded="true" />
                 <element signature="e#2033#2034#0" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
                 <element signature="e#2110#2111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/lang/Integer.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practices/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="345">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <element signature="e#56168#56169#0" expanded="true" />
-                <element signature="e#56232#56233#0" expanded="true" />
-                <element signature="e#56810#56811#0" expanded="true" />
-                <element signature="e#56866#56867#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,21 +64,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="1107">
+              <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -154,8 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +159,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +295,8 @@
       <workItem from="1554254346296" duration="11825000" />
       <workItem from="1554732294177" duration="6035000" />
       <workItem from="1555477665028" duration="6953000" />
-      <workItem from="1555550029274" duration="27890000" />
+      <workItem from="1555550029274" duration="28280000" />
+      <workItem from="1555638504679" duration="16674000" />
     </task>
     <task id="LOCAL-00001" summary="添加java语法细节MD文件">
       <created>1554287974628</created>
@@ -349,49 +333,56 @@
       <option name="project" value="LOCAL" />
       <updated>1555496220207</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bst">
+      <created>1555582446072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555582446072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 14m 35s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 11h 00m 28s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 15m 02s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 11h 02m 47s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 15m 03s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 13h 31m 14s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 19m 42s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 13h 31m 53s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 19m 45s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 14h 10m 13s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 27m 30s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 14h 13m 48s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 27m 32s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 15h 26m 16s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 30m 04s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 15h 28m 57s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 17h 33m 27s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 15h 37m 06s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.18 at 18h 13m 37s.xml">
+    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 17h 18m 34s.xml">
       <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74635000" />
+    <option name="totallyTimeSpent" value="91699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2289644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23300971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -399,10 +390,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="设计器" order="7" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3290993" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838188" weight="0.32794458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49838188" visible="true" weight="0.32794458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,7 +403,8 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50161815" side_tool="true" weight="0.32794458" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49928468" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="调试" order="13" visible="true" weight="0.46189377" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.46189377" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,7 +425,8 @@
     <MESSAGE value="IO 范型 异常 递归" />
     <MESSAGE value="HashMap UnitTest" />
     <MESSAGE value="sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort" />
+    <MESSAGE value="bst" />
+    <option name="LAST_COMMIT_MESSAGE" value="bst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,13 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/Tree.java">
+    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -756,51 +745,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        <state relative-caret-position="1107">
+          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
           <folding>
             <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practices/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
+        <state relative-caret-position="552">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
             <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
             <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
             <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
             <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
             <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
             <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
             <element signature="e#2110#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practices/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
