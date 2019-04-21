@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 
 public class BinarySearchTree<E> implements Tree {
 
-    protected class Node<E>{
+    protected static class Node<E>{
         Node<E> left;
         Node<E> right;
         E data;
@@ -24,7 +24,7 @@ public class BinarySearchTree<E> implements Tree {
             this.right = right;
         }
     }
-    private Node<E> root;
+    protected Node<E> root;
     private Comparator<E> comparator;
     public BinarySearchTree(){
 
@@ -45,8 +45,8 @@ public class BinarySearchTree<E> implements Tree {
         bst.right = createByRoot(root.right);
         return bst;
     }
-    private Node<E> createNode(E data, Node<E> left, Node<E> right){
-        return new Node<E>(data, left, right);
+    protected Node<E> createNewNode(E data){
+        return new Node<E>(data);
     }
     public Node<E> getRoot(){
         return root;
@@ -96,7 +96,7 @@ public class BinarySearchTree<E> implements Tree {
         }
         return Math.max(depth(node.left), depth(node.right)) + 1;
     }
-    private int compare(E e1, E e2){
+    protected int compare(E e1, E e2){
         if(comparator != null){
             return comparator.compare(e1, e2);
         }else if( e1 instanceof Comparable && e2 instanceof Comparable){
@@ -199,10 +199,10 @@ public class BinarySearchTree<E> implements Tree {
         return list;
     }
     @Override
-    public void insert(Object o) {
+    public boolean insert(Object o) {
         E data = (E)o;
         if(root == null){
-            root = new Node<E>(data);
+            root = createNewNode(data);
         }else{
             Node<E> current = root;
             Node<E> parrent = null;
@@ -214,16 +214,17 @@ public class BinarySearchTree<E> implements Tree {
                     parrent = current;
                     current = current.right;
                 }else{
-                    throw new RuntimeException("Can not insert same data in BST");
+                    return false;
                 }
             }
-            Node<E> newNode = new Node<E>(data);
+            Node<E> newNode = createNewNode(data);
             if(compare(data, parrent.data) < 0){
                 parrent.left = newNode;
             }else {
                 parrent.right = newNode;
             }
         }
+        return true;
     }
 
     @Override
@@ -243,11 +244,11 @@ public class BinarySearchTree<E> implements Tree {
     }
 
     @Override
-    public void delete(Object o) {
+    public boolean delete(Object o) {
         E data = (E) o;
         Node<E> current = root, parrent = null;
         if (search(o) == null) {
-            throw new RuntimeException("BST doesn't contain the node");
+            return false;
         }
         while (current != null) {
             if (compare(data, current.data) > 0) {
@@ -284,6 +285,6 @@ public class BinarySearchTree<E> implements Tree {
                     parrentOfRightMost.right = rightMost.left;
                 }
             }
-
+        return true;
     }
 }

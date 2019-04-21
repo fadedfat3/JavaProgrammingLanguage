@@ -7,24 +7,6 @@ import static org.junit.Assert.*;
 
 public class BinarySearchTreeTest {
 
-
-    @Test
-    public void getDepth() {
-        BinarySearchTree<String> bst = new BinarySearchTree<>();
-    }
-
-    @Test
-    public void previousOrder() {
-    }
-
-    @Test
-    public void inOrder() {
-    }
-
-    @Test
-    public void postOrder() {
-    }
-
     @Test
     public void insert() {
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
@@ -54,9 +36,6 @@ public class BinarySearchTreeTest {
 
     }
 
-    @Test
-    public void postOrderR() {
-    }
 
     @Before
     public void setUp() throws Exception {

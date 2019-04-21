@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131fd83f-eb7f-4414-a168-78fbce2172ff" name="Default Changelist" comment="bst">
+    <list default="true" id="131fd83f-eb7f-4414-a168-78fbce2172ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JUnit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JUnit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgrammingLanguage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProgrammingLanguage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/AVLTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java" afterDir="false" />
@@ -22,41 +25,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practices/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="229">
+              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#1403#1404#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1664#1665#0" expanded="true" />
-                <element signature="e#1706#1707#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
-                <element signature="e#1828#1829#0" expanded="true" />
-                <element signature="e#1990#1991#0" expanded="true" />
-                <element signature="e#2033#2034#0" expanded="true" />
-                <element signature="e#2076#2077#0" expanded="true" />
-                <element signature="e#2110#2111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practices/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -64,11 +49,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+            <state relative-caret-position="465">
+              <caret line="34" column="81" lean-forward="true" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practices/AVLTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#1825#1826#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,14 +78,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>front</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -111,27 +103,23 @@
         <option value="$PROJECT_DIR$/src/practices/Abstract.java" />
         <option value="$PROJECT_DIR$/语法细节.md" />
         <option value="$PROJECT_DIR$/src/practices/BinaryIO.java" />
+        <option value="$PROJECT_DIR$/src/practices/MyMap.java" />
         <option value="$PROJECT_DIR$/src/practices/Main.java" />
         <option value="$PROJECT_DIR$/src/practices/MyHashMap.java" />
-        <option value="$PROJECT_DIR$/src/practices/MyMap.java" />
-        <option value="$PROJECT_DIR$/test/practices/MyHashMapTest.java" />
-        <option value="$PROJECT_DIR$/src/practices/Sort.java" />
-        <option value="$PROJECT_DIR$/test/practices/SortTest.java" />
-        <option value="$PROJECT_DIR$/src/practices/Tree.java" />
         <option value="$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/practices/Tree.java" />
         <option value="$PROJECT_DIR$/src/practices/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/practices/AVLTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1260" />
-    <option name="height" value="944" />
+    <option name="x" value="9" />
+    <option name="y" value="23" />
+    <option name="width" value="1268" />
+    <option name="height" value="797" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -155,6 +143,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="practices" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaProgrammingLanguage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProgrammingLanguage" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaProgrammingLanguage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProgrammingLanguage" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="practices" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,23 +166,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="E:/software/JUnit/hamcrest-core-1.3.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="practices" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\myRepo\JavaProgrammingLanguage\src\practices" />
     </key>
@@ -200,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.insert">
+  <component name="RunManager" selected="JUnit.BinarySearchTreeTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practices.Main" />
       <module name="JavaProgrammingLanguage" />
@@ -226,58 +210,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgrammingLanguage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practices" />
-      <option name="MAIN_CLASS_NAME" value="practices.BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="insert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgrammingLanguage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practices" />
-      <option name="MAIN_CLASS_NAME" value="practices.MyHashMapTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgrammingLanguage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practices" />
-      <option name="MAIN_CLASS_NAME" value="practices.SortTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinarySearchTreeTest.insert" />
         <item itemvalue="JUnit.BinarySearchTreeTest" />
-        <item itemvalue="JUnit.SortTest" />
-        <item itemvalue="JUnit.MyHashMapTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -294,9 +229,6 @@
       <updated>1554254343231</updated>
       <workItem from="1554254346296" duration="11825000" />
       <workItem from="1554732294177" duration="6035000" />
-      <workItem from="1555477665028" duration="6953000" />
-      <workItem from="1555550029274" duration="28280000" />
-      <workItem from="1555638504679" duration="16674000" />
     </task>
     <task id="LOCAL-00001" summary="添加java语法细节MD文件">
       <created>1554287974628</created>
@@ -319,80 +251,35 @@
       <option name="project" value="LOCAL" />
       <updated>1554740422963</updated>
     </task>
-    <task id="LOCAL-00004" summary="HashMap UnitTest">
-      <created>1555409092465</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1555409092465</updated>
-    </task>
-    <task id="LOCAL-00005" summary="sort">
-      <created>1555496220207</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1555496220207</updated>
-    </task>
-    <task id="LOCAL-00006" summary="bst">
-      <created>1555582446072</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1555582446072</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 11h 00m 28s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest - 2019.04.20 at 11h 42m 55s.xml">
+      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 11h 02m 47s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 13h 31m 14s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 13h 31m 53s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 14h 10m 13s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 14h 13m 48s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 15h 26m 16s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 15h 28m 57s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 15h 37m 06s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_insert - 2019.04.19 at 17h 18m 34s.xml">
-      <configuration name="BinarySearchTreeTest.insert" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest - 2019.04.20 at 13h 57m 06s.xml">
+      <configuration name="BinarySearchTreeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91699000" />
+    <option name="totallyTimeSpent" value="35863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="30" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23300971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="设计器" order="7" />
+      <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49838188" visible="true" weight="0.32794458" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,11 +287,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290993" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50161815" side_tool="true" weight="0.32794458" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49928468" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3290993" />
-      <window_info anchor="bottom" id="调试" order="13" weight="0.46189377" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,7 +299,6 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="调色板" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,22 +307,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加java语法细节MD文件" />
     <MESSAGE value="IO 范型 异常 递归" />
-    <MESSAGE value="HashMap UnitTest" />
-    <MESSAGE value="sort" />
-    <MESSAGE value="bst" />
-    <option name="LAST_COMMIT_MESSAGE" value="bst" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practices/BinarySearchTree.java</url>
-          <line>151</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="IO 范型 异常 递归" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -470,13 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -522,42 +384,28 @@
     <entry file="file://$PROJECT_DIR$/JavaProgrammingLanguage.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/语法细节.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="4048">
-            <caret line="176" column="58" selection-start-line="176" selection-start-column="58" selection-end-line="176" selection-end-column="58" />
+          <first_editor relative-caret-position="2745">
+            <caret line="183" selection-start-line="183" selection-end-line="183" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/MyMap.java">
+    <entry file="file://$PROJECT_DIR$/src/practices/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practices/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4807">
-          <caret line="226" column="66" selection-start-line="226" selection-start-column="66" selection-end-line="226" selection-end-column="66" />
+        <state relative-caret-position="334">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#1188#1189#0" expanded="true" />
@@ -574,300 +422,89 @@
             <element signature="e#1982#1983#0" expanded="true" />
             <element signature="e#2241#2242#0" expanded="true" />
             <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#3301#3307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/practices/MyMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="541" column="11" lean-forward="true" selection-start-line="541" selection-start-column="11" selection-end-line="541" selection-end-column="11" />
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/practices/MyHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/practices/TestScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1212">
-          <caret line="399" column="42" selection-start-line="399" selection-start-column="42" selection-end-line="399" selection-end-column="42" />
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/AbstractMap.java">
+    <entry file="file://$PROJECT_DIR$/src/practices/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2945">
-          <caret line="723" column="5" lean-forward="true" selection-start-line="723" selection-start-column="5" selection-end-line="723" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3265">
-          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3864">
-          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/MergeSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/practices/QuickSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/practices/HeapSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/practices/InsertSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/practices/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/TreeTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/BTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/BPlusTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/jdk.compiler/com/sun/tools/javac/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="538" column="29" selection-start-line="538" selection-start-column="29" selection-end-line="538" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="735" column="17" selection-start-line="735" selection-start-column="17" selection-end-line="735" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/RedBlackTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="644" column="25" lean-forward="true" selection-start-line="644" selection-start-column="25" selection-end-line="644" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10829">
-          <caret line="220" column="17" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/practices/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/software/jdk11/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#56168#56169#0" expanded="true" />
-            <element signature="e#56232#56233#0" expanded="true" />
-            <element signature="e#56810#56811#0" expanded="true" />
-            <element signature="e#56866#56867#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/practices/BinarySearchTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practices/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="34" column="81" lean-forward="true" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practices/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practices/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JavaProgrammingLanguage</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>JUnit</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/practices/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
