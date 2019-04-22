@@ -10,55 +10,45 @@ public class BinarySearchTreeTest {
     @Test
     public void insert() {
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(0);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(4);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(1);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(3);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(9);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(7);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(12);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(20);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(-2);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(-10);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
         bst.insert(17);
+        assertTrue(bst.isBST());
         assertArrayEquals(bst.postOrder().toArray(), bst.postOrderR().toArray());
 
     }
 
 
-    @Before
-    public void setUp() throws Exception {
-        BinarySearchTree<Integer> bst = new BinarySearchTree<>();
-        bst.insert(0);
-        bst.insert(4);
-        bst.insert(1);
-        bst.insert(3);
-        bst.insert(9);
-        bst.insert(7);
-        bst.insert(12);
-        bst.insert(20);
-        bst.insert(-2);
-        bst.insert(-10);
-        bst.insert(17);
-        bst.insert(25);
-        bst.insert(2);
-        bst.insert(8);
-        bst.insert(5);
-        System.out.println(bst);
-        bst.delete(0);
-        System.out.println(bst);
-        System.out.println(bst.previousOrder());
-        System.out.println(bst.postOrder());
-    }
+
+
 }

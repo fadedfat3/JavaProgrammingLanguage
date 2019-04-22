@@ -48,6 +48,24 @@ public class BinarySearchTree<E> implements Tree {
     protected Node<E> createNewNode(E data){
         return new Node<E>(data);
     }
+    protected ArrayList<Node<E>> path(E data){
+        ArrayList<Node<E>> paths = new ArrayList<>();
+        Node<E> current = root;
+        while(current != null){
+            if(compare(data, current.data) < 0){
+                paths.add(current);
+                current = current.left;
+            }else if(compare(data, current.data) > 0){
+                paths.add(current);
+                current = current.right;
+
+            }else{
+                break;
+            }
+
+        }
+        return paths;
+    }
     public Node<E> getRoot(){
         return root;
     }
@@ -83,7 +101,12 @@ public class BinarySearchTree<E> implements Tree {
 
     @Override
     public String toString() {
-        return inOrder().toString();
+        List<E> orders = inOrder();
+        if(orders != null) {
+            return inOrder().toString();
+        }else{
+            return "null";
+        }
     }
 
     @Override
@@ -286,5 +309,21 @@ public class BinarySearchTree<E> implements Tree {
                 }
             }
         return true;
+    }
+    protected boolean isBST(){
+        return isBST(root);
+    }
+    protected boolean isBST(Node<E> node){
+        boolean success = true;
+        if(node == null){
+            return success;
+        }
+        if(node.left != null && success){
+            success = compare(node.left.data, node.data) < 0;
+        }
+        if(node.right != null && success){
+            success = compare(node.right.data , node.data) > 0;
+        }
+        return success && isBST(node.left) && isBST(node.right);
     }
 }
