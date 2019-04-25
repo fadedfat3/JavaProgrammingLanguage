@@ -33,14 +33,14 @@ public class Heap <E extends Comparable<E>>{
             int index = indexP;
             if(lChild < size){
                 E leftData  = datas.get(lChild);
-                if(leftData.compareTo(parrent) < 0){
+                if(leftData.compareTo(parrent) <= 0){
                     min = leftData;
                     index = lChild;
                 }
             }
             if(rChild < size){
                 E rightData = datas.get(rChild);
-                if(rightData.compareTo(min) < 0){
+                if(rightData.compareTo(min) <= 0){
                     min = rightData;
                     index = rChild;
                 }
@@ -50,7 +50,6 @@ public class Heap <E extends Comparable<E>>{
             }
             datas.set(index, parrent);
             datas.set(indexP, min);
-            parrent = min;
             indexP = index;
             lChild = leftChild(indexP);
             rChild = rightChild(indexP);
@@ -59,13 +58,15 @@ public class Heap <E extends Comparable<E>>{
     public boolean insert(E e){
         datas.add(e);
         size++;
-        int p = parrent(size-1);
-        while(p > 0){
-            E parrent = datas.get(p);
+        int index = size-1;
+        int parrentIndex = parrent(index);
+        while(parrentIndex >= 0){
+            E parrent = datas.get(parrentIndex);
             if(e.compareTo(parrent) < 0){
-                datas.set(size, parrent);
-                datas.set(p, e);
-                p = parrent(p);
+                datas.set(index, parrent);
+                datas.set(parrentIndex, e);
+                index = parrentIndex;
+                parrentIndex = parrent(parrentIndex);
             }else{
                 break;
             }
@@ -80,6 +81,14 @@ public class Heap <E extends Comparable<E>>{
         datas.set(0,datas.get(size-1));
         size--;
         adjust();
+        datas.remove(size);
         return result;
+    }
+    @Override
+    public String toString(){
+        return datas.toString();
+    }
+    public int size(){
+        return size;
     }
 }

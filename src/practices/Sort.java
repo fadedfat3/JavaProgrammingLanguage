@@ -101,4 +101,14 @@ public class Sort {
         quickSort(list, 0, list.size());
 
     }
+    public static <E extends Comparable<E>> void heapSort(List<E> list){
+        Heap<E> heap = new Heap<>();
+        for(E e:list){
+            heap.insert(e);
+        }
+        int i = 0;
+        while(heap.size() > 0){
+            list.set(i++, heap.delete());
+        }
+    }
 }

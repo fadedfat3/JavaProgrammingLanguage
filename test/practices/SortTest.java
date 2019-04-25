@@ -83,4 +83,19 @@ public class SortTest {
         System.out.println(expectedList);
         System.out.println(list);
     }
+
+    @Test
+    public void heapSort() {
+        List<String> list = new ArrayList<>();
+        list.add("abg");
+        list.add("");
+        list.add("tyhetggh");
+        list.add("a");
+        list.add(" sfe\\fef");
+        Sort.heapSort(list);
+        List<String> expectedList = new ArrayList<>(list);
+        Collections.sort(expectedList);
+        assertArrayEquals(expectedList.toArray(), list.toArray());
+
+    }
 }
